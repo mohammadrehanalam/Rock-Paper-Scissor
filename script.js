@@ -32,7 +32,7 @@ if (userChoice===compChoice) {
     if (userChoice==="rock") {
        userWin= compChoice==="paper"? false : true;
     }
-    if (userChoice==="paper") {
+    else if (userChoice==="paper") {
       userWin=  compChoice==="scissor"? false : true;
     }
     else{
